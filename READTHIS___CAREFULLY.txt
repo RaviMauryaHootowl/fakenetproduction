@@ -1,0 +1,28 @@
+---------READ THIS---------
+1) My routes order:
+
+static
+   \--- assets (includes all statics)
+templates
+   \--- (includes all html files)
+routes.py
+
+
+
+2) Routes (routes.py)
+
+/       		-- Index page
+/video   		-- Videos page
+/image    		-- Images page
+/news     		-- News page
+/upload-text-simple     --  Upload news
+/upload-video           -- Upload Video
+/upload-image    	-- Upload Image
+
+NOTE : In upload routes, render templates with passing variable Prediction
+
+3) FILES and FOLDER TO DELETE IN OLD REPO : 
+FN/assets
+FN/imgs
+FN/static
+FN/templates
